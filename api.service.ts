@@ -8,7 +8,7 @@ import { retry, catchError, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ApiService {
-  baseUrl: String = 'http://206.81.14.167:8000/';
+  baseUrl: String = 'http://xx.xx.xx.xx:8000/';
   token: String = localStorage.getItem('token');
 
   // header = new HttpHeaders({ Authorization: 'Token ' + this.token });
