@@ -9,7 +9,7 @@ import { ErrorHandlingService } from './error-handling.service';
   providedIn: 'root'
 })
 export class ApiService {
-  baseUrl: String = 'http://206.81.14.167:8000/';
+  baseUrl: String = 'http://xx.xx.xx.xx:8000/';
 
   noAuth = {
     headers: new HttpHeaders().set('no-auth', 'true')
